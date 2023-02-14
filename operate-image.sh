@@ -96,7 +96,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/activator:sha256-93ff6e693577 \
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:sha256-007820fdb75b \
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping:sha256-23baa1932232 \
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook:sha256-847bb97e3844 \
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook:sha256-9084ea8498eae \
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook:sha256-9084ea8498ea \
 gcr.io/knative-releases/knative.dev/serving/cmd/controller:sha256-75cfdcfa050a \
 gcr.io/knative-releases/knative.dev/serving/cmd/queue:sha256-14415b204ea8 \
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:sha256-dc0ac2d8f235 \
@@ -104,7 +104,6 @@ gcr.io/knative-releases/knative.dev/eventing/cmd/webhook:sha256-b7faf7d253bd \
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtping:sha256-632d9d710d07 \
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller:sha256-f253b82941c2 \
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook:sha256-a705c1ea8e9e
-
 
 
 
@@ -130,7 +129,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/activator:sha256-93ff6e693577 \
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:sha256-007820fdb75b \
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping:sha256-23baa1932232 \
 gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook:sha256-847bb97e3844 \
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook:sha256-9084ea8498eae \
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook:sha256-9084ea8498ea \
 gcr.io/knative-releases/knative.dev/serving/cmd/controller:sha256-75cfdcfa050a \
 gcr.io/knative-releases/knative.dev/serving/cmd/queue:sha256-14415b204ea8 \
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:sha256-dc0ac2d8f235 \
@@ -174,5 +173,8 @@ registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-webhook-sha256-a7
 # 一次性导入
 docker load -i ./kf-manifests-1.6.1-gcrio.tar
 
+
+
+## 其他镜像
 
 
