@@ -28,6 +28,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/queue:sha256-14415b204ea8 \
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:sha256-dc0ac2d8f235 \
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook:sha256-b7faf7d253bd \
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtping:sha256-632d9d710d07 \
+gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:sha256-5b672eedd343 \
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller:sha256-f253b82941c2 \
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook:sha256-a705c1ea8e9e
 
@@ -60,6 +61,7 @@ gcr.io/knative-releases/knative.dev/serving/cmd/queue:sha256-14415b204ea8 \
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:sha256-dc0ac2d8f235 \
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook:sha256-b7faf7d253bd \
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtping:sha256-632d9d710d07 \
+gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:sha256-5b672eedd343 \
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller:sha256-f253b82941c2 \
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook:sha256-a705c1ea8e9e
 

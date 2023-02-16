@@ -32,9 +32,10 @@ docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-queue-s
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-controller-sha256-dc0ac2d8f235
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-webhook-sha256-b7faf7d253bd
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-mtping-sha256-632d9d710d07
+docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserver_receive_adapter-sha256-5b672eedd343
+
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-controller-sha256-f253b82941c2
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-webhook-sha256-a705c1ea8e9e
-
 
 # 修改标签
 docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:dex-v2.31.2 ghcr.io/dexidp/dex:v2.31.2
@@ -68,7 +69,10 @@ docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-controll
 docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-queue-sha256-14415b204ea8 gcr.io/knative-releases/knative.dev/serving/cmd/queue:sha256-14415b204ea8
 docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-controller-sha256-dc0ac2d8f235 gcr.io/knative-releases/knative.dev/eventing/cmd/controller:sha256-dc0ac2d8f235
 docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-webhook-sha256-b7faf7d253bd gcr.io/knative-releases/knative.dev/eventing/cmd/webhook:sha256-b7faf7d253bd
-docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-mtping-sha256-632d9d710d07 gcr.io/knative-releases/knative.dev/eventing/cmd/mtping:sha256-632d9d710d07     
+docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-mtping-sha256-632d9d710d07 gcr.io/knative-releases/knative.dev/eventing/cmd/mtping:sha256-632d9d710d07
+
+docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserver_receive_adapter-sha256-5b672eedd343 gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter:sha256-5b672eedd343
+
 docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-controller-sha256-f253b82941c2 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller:sha256-f253b82941c2
 docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-webhook-sha256-a705c1ea8e9e gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook:sha256-a705c1ea8e9e   
 
@@ -101,6 +105,7 @@ registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-queue-sha256-14415b
 registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-controller-sha256-dc0ac2d8f235 \
 registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-webhook-sha256-b7faf7d253bd \
 registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-mtping-sha256-632d9d710d07 \
+registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserver_receive_adapter-sha256-5b672eedd343 \
 registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-controller-sha256-f253b82941c2 \
 registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-webhook-sha256-a705c1ea8e9e
 
