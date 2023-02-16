@@ -1,8 +1,13 @@
 
 
 
-# gcr.io
-谷歌容器
+# 我的谷歌容器镜像仓库[gcr.io](https://github.com/PingYufeng/gcr.io)
+>具体参考完整如下:
+[【云原生 | 阿里云容器镜像构建】解决kubeflow的镜像源问题](https://blog.csdn.net/pingyufeng/article/details/129009484)
+
+
+## 步骤简介
+
 
 ### 构建阿里云镜像后，进行拉取
 
@@ -20,4 +25,14 @@ $ docker login --username=13542022853 registry.cn-hangzhou.aliyuncs.com
 $ docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:[镜像版本号]
 ```
 
-### 由于refusing to create a tag with a digest reference，部分
+### 由于refusing to create a tag with a digest reference，部分镜像标签需要需改变动。
+./kf-image-list/kf-ex-files的文件需要修改变动的镜像源
+
+### 
+
+## 参考
+> 借用阿里云拉取镜像
+[【最新】k8s中kubeflow(v1.0)部署全过程+踩坑全集（图文）](https://blog.csdn.net/qq_46595591/article/details/107765833) 
+
+> 受启发kustomize生成yaml后，找出镜像源，汇总列表
+[带你玩转kubeflow on Kind：使用安装教程](https://zhuanlan.zhihu.com/p/372382169)
