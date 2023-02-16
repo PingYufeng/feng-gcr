@@ -1,5 +1,7 @@
-## Kubeflow
 
+## [Kubeflow的manifests-1.6.1的镜像源列表](https://github.com/kubeflow/manifests/)
+
+> 仅仅为kustomization.yaml文件的镜像源
 ### APP
 #### **Jupyter**
 ```yaml

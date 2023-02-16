@@ -1,8 +1,9 @@
-## kubeflow
+
+## [Kubeflow的manifests-1.6.1的镜像源列表](https://github.com/kubeflow/manifests/)
+
+> 除了kustomization.yaml文件的其他文件中涉及的镜像源
 
 ### APP
-
-
 #### **Admission-Webhook**
 ```yaml
 # apps\admission-webhook\upstream\base\deployment.yaml
