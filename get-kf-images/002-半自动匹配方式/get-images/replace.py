@@ -9,8 +9,8 @@ import json
 
 
 IMAGE_PREFIX = "registry.cn-shenzhen.aliyuncs.com/tensorbytes/"
-path = r"/cgm-kubeflow/kf-ex-files"
-path2 = r"I:\work\orbita\WorkSpace\owner\k8s\#-参考\kubeflow-manifests\cgm-kubeflow\images-io"
+path = r"../kf-ex-files"
+path2 = r"./images-io"
 
 def getNewImage(image, prefix):
     # get hash of image
