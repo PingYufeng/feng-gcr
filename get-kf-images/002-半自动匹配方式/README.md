@@ -1,5 +1,5 @@
 
-#
+# 步骤
 ## [Kubeflow的manifests-1.6.1的example镜像源列表](https://github.com/kubeflow/manifests/)
 
 ### 1. 通过脚本生成k8s 的yaml 文件
@@ -27,7 +27,7 @@ Garbage Collector Settings
 
 
 
-### 遗漏-20230216
+### 遗漏-20230216，已更新补充完善
 gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:5b672eedd343bcf9496c2070479f9d8f29231069148bf2aa7991bd5ca5a7562a
 
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserver_receive_adapter-sha256-5b672eedd343   
@@ -35,9 +35,8 @@ docker tag registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserv
 docker rmi registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserver_receive_adapter-sha256-5b672eedd343
 
 
-
-
-
+### 遗漏补充-20230220
+修改006_yaml的imagePullPolicy: IfNotPresent
 
 
 

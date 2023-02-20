@@ -6446,7 +6446,7 @@ spec:
           value: config-observability
         - name: METRICS_DOMAIN
           value: knative.dev/serving
-        image: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:sha256-007820fdb75b6
+        image: gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:sha256-007820fdb75b
         livenessProbe:
           failureThreshold: 6
           httpGet:
