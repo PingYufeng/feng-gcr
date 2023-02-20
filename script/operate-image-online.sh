@@ -12,7 +12,6 @@ docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:metadata-writer-2.0
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:minio-RELEASE.2019-08-14T20-37-41Z-license-compliance
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:api-server-2.0.0-alpha.5
 
-
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:persistenceagent-2.0.0-alpha.5
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:scheduledworkflow-2.0.0-alpha.5
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:frontend-2.0.0-alpha.5
@@ -20,11 +19,10 @@ docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:viewer-crd-controll
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:visualization-server-2.0.0-alpha.5
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:mysql-5.7-debian
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:workflow-controller-v3.3.8-license-compliance
+
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-activator-sha256-93ff6e693577
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-autoscaler-sha256-007820fdb75b
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-domain-mapping-sha256-23baa1932232
-
-
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-domain-mapping-webhook-sha256-847bb97e3844
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-webhook-sha256-9084ea8498ea
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:serving-cmd-controller-sha256-75cfdcfa050a
@@ -33,7 +31,6 @@ docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-contro
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-webhook-sha256-b7faf7d253bd
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-mtping-sha256-632d9d710d07
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:eventing-cmd-apiserver_receive_adapter-sha256-5b672eedd343
-
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-controller-sha256-f253b82941c2
 docker pull registry.cn-hangzhou.aliyuncs.com/feng888/gcr.io:net-istio-cmd-webhook-sha256-a705c1ea8e9e
 
