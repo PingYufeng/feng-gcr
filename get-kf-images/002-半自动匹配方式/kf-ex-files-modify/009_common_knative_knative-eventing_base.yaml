@@ -4938,7 +4938,7 @@ spec:
       enableServiceLinks: false
       serviceAccountName: pingsource-mt-adapter
 ---
-apiVersion: policy/v1beta1
+apiVersion: policy/v1
 kind: PodDisruptionBudget
 metadata:
   labels:
@@ -4958,7 +4958,7 @@ spec:
       app.kubernetes.io/name: knative-eventing
       kustomize.component: knative
 ---
-apiVersion: autoscaling/v2beta2
+apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   labels:
