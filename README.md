@@ -68,5 +68,5 @@ kubectl apply -f calico.yaml
 [带你玩转kubeflow on Kind：使用安装教程](https://zhuanlan.zhihu.com/p/372382169)
 
 
-
+### 20230224 没修改的几个dockerfile导致拉取镜像出错，排查了一个多星期~~~血的教训
 
